@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  margin: 0;
+  /* Removes default margin */
+  flex: 1;
+  /* Allows h1 to grow and push nav to the end */
+}
+
+nav ul {
+  list-style: none;
+  /* Removes default list styling */
+  padding: 0;
+  /* Removes default padding */
+  display: flex;
+  align-items: center;
+  /* Vertically aligns links with the h1 */
+  gap: 20px;
+  /* Adds space between each link, adjust as needed */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  /* Set your preferred color */
+}

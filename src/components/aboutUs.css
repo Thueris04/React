@@ -1,0 +1,38 @@
+.about-us-section {
+  padding: 40px;
+  background-color: #f2f2f2; /* Light, bakery-themed background */
+  text-align: center;
+  height: 100vh;
+}
+
+.about-us-section h2 {
+  color: #000; /* A warm, welcoming color */
+  font-size: 72px;
+}
+
+.about-us-p {
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+}
+
+.about-us-section p {
+  color: #6a6a6a;
+  max-width: 800px;
+  margin: 20px auto;
+  width: 400px;
+  line-height: 170%;
+}
+
+.cta-button button {
+  background-color: #000; /* A color that pops, inviting clicks */
+  color: white;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button button:hover {
+  background-color: #f08080; /* A lighter shade for hover state */
+}
